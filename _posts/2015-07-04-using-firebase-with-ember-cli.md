@@ -15,7 +15,7 @@ am using as I write, including ember-cli 0.2.7, Ember.js 1.12.1 and emberfire 1.
 
 #### bower.json
 
- https://github.com/dtt101/superhero/blob/48ecb054012984c84f6f994879da073c77355317/bower.json
+ [https://github.com/dtt101/superhero/blob/48ecb054012984c84f6f994879da073c77355317/bower.json]
 
 #### package.json
 
@@ -54,7 +54,7 @@ that will interact with firebase. We don't want to overwrite the existing applic
 adapter as that points to the Marvel API.
 
 Create ```app/adapters/firebase.js``` with the following code:
-
+{% highlight javascript %}
     import config from '../config/environment';
     import Firebase from 'firebase';
     import FirebaseAdapter from 'emberfire/adapters/firebase';
@@ -62,7 +62,7 @@ Create ```app/adapters/firebase.js``` with the following code:
     export default FirebaseAdapter.extend({
       firebase: new Firebase(config.firebase)
     });
-
+{% endhighlight %}
 
 Next there are some security steps we should take to make sure everything will
 working properly.
@@ -71,10 +71,11 @@ Ember needs to know that it is ok to talk to firebase, and firebase needs it's s
 
 First you should update your content security policy in ```config/environment.js``` to include the firebase service. Note the wildcard.
 
-
+{% highlight javascript %}
     contentSecurityPolicy: {
       'connect-src': "'self' wss://*.firebaseio.com"
     },
+{% endhighlight %}
 
 
 In addition you will need to update the default firebase security policy to support writing data for your application. See the guide here for more information: https://www.firebase.com/docs/security/guide/.
@@ -91,17 +92,21 @@ ember generate model log-entry body:string timestamp:number
 
 Next we create an adapter for that model to use extending our firebase adapter. Create a file at ```app/adapters/log-entry.js```. The Ember resolver will automatically use this for our model.
 
+{% highlight javascript %}
     import FirebaseAdapter from './firebase';
 
     export default FirebaseAdapter.extend();
+{% endhighlight %}
 
 We can test this out in the browser console, and then confirm the data is being
 saved using the Forge data viewer provided by Firebase.
 
 In chrome, with the Ember Inspector installed grab an instance of a route, then run the following in the debug console of chrome developer tools.
 
+{% highlight javascript %}
     var logEntry = $E.store.createRecord('log-entry', { body: 'test', timestamp: new Date().getTime() })
     logEntry.save()
+{% endhighlight %}
 
 Then navigate to your firebase and checkout the forge data viewer - you should see your new log entry.
 

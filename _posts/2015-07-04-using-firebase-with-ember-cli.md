@@ -13,13 +13,9 @@ and view it online here: https://superhero-demo.firebaseapp.com
 As I am friend to our collective future here are links to the versions of software I
 am using as I write, including ember-cli 0.2.7, Ember.js 1.12.1 and emberfire 1.4.7.
 
-#### bower.json
+* [bower.json](https://github.com/dtt101/superhero/blob/48ecb054012984c84f6f994879da073c77355317/bower.json)
 
- [https://github.com/dtt101/superhero/blob/48ecb054012984c84f6f994879da073c77355317/bower.json]
-
-#### package.json
-
-https://github.com/dtt101/superhero/blob/48ecb054012984c84f6f994879da073c77355317/package.json
+* [package.json](https://github.com/dtt101/superhero/blob/48ecb054012984c84f6f994879da073c77355317/package.json)
 
 ## Using Firebase as an additional data store
 

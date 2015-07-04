@@ -91,13 +91,15 @@ To try things out we'll create a model. I'm going to call it LogEntry.
 ember generate model log-entry body:string timestamp:number
 ```
 
-Next we create an adapter for that model to use extending our firebase adapter. Create a file at ```app/adapters/log-entry.js```
+Next we create an adapter for that model to use extending our firebase adapter. Create a file at ```app/adapters/log-entry.js```.
+
 
 ```
 import FirebaseAdapter from './firebase';
 
 export default FirebaseAdapter.extend();
 ```
+
 
 We can test this out in the browser console, and then confirm the data is being
 saved using the Forge data viewer provided by Firebase.

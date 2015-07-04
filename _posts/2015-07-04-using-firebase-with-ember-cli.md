@@ -41,9 +41,9 @@ You will also see a new line added to your ```config/environment.js```.
 
 If given the opportunity don't overwrite your existing application adapter.
 
-```
+{% highlight javascript %}
 firebase: 'https://YOUR-FIREBASE-NAME.firebaseio.com/',
-```
+{% endhighlight %}
 
 You should update this line to point to your firebase app.
 

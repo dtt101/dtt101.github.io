@@ -6,8 +6,8 @@ excerpt: <p>How to use multiple data sources in Ember</p>
 In this post I want to show you how you can add multiple data stores to your
 Ember application, using Firebase with my demo Marvel API Ember app as an example.
 
-You can see the source code for the full application here: https://github.com/dtt101/superhero
-and view it online here: https://superhero-demo.firebaseapp.com
+You can see the source code for the full application here: [https://github.com/dtt101/superhero](https://github.com/dtt101/superhero)
+and view it online here: [https://superhero-demo.firebaseapp.com](https://superhero-demo.firebaseapp.com)
 
 ## Pre-Requisites
 As I am friend to our collective future here are links to the versions of software I

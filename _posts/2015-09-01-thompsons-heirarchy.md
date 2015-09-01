@@ -1,3 +1,9 @@
+---
+layout: post
+title: Thompson’s Hierarchy of Software Needs
+excerpt: <p>How to take over existing software projects</p>
+---
+
 # Thompson’s Hierarchy of Software Needs
 In 1943 a psychologist, Abraham Maslow, published “A Theory of Human Motivation”. He was interested in identifying how human beings grow and develop. Fundamental to his approach was his “[Hierarchy of Needs](https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs)”, which you’ll probably recognise:
 ![source: Wikipedia](https://dl.dropboxusercontent.com/u/2196291/MaslowsHierarchyOfNeeds.svg.png "Maslow's Hierarchy of Needs")

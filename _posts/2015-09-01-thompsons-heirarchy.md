@@ -24,6 +24,7 @@ We also had to consider:
 
 ## Challenges
 As we began work a variety of issues cropped up across the projects, including:
+
 * Some were running versions of software with known security defects (though nothing high risk, thankfully)
 * Some were hooked into our continuous integration system. Some weren’t.
 * Releases to production environments hadn’t taken place for over a year in some instances.

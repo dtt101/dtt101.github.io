@@ -3,18 +3,21 @@ layout: post
 title: Thompson’s Hierarchy of Software Needs
 excerpt: <p>How to take over existing software projects</p>
 ---
-
 # Thompson’s Hierarchy of Software Needs
 In 1943 a psychologist, Abraham Maslow, published “A Theory of Human Motivation”. He was interested in identifying how human beings grow and develop. Fundamental to his approach was his “[Hierarchy of Needs](https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs)”, which you’ll probably recognise:
+
 ![source: Wikipedia](https://dl.dropboxusercontent.com/u/2196291/MaslowsHierarchyOfNeeds.svg.png "Maslow's Hierarchy of Needs")
+
 For each condition to be reached, the condition below must first be achieved. This structure he saw as helpful towards understanding human motivation at different stages of development. With this pyramid in mind let’s travel back in time together to early 2015…
 
 ## Context
 Recently I have been lucky enough to join a newly formed agile (no, really!) software team in Leeds, UK. We were confronted with a pretty standard situation for a new development team - a number of existing services, developed by a variety of different people, using different technologies and frameworks. We had two things to do:
+
 1. Support the existing services
 2. Develop new features for product owners.
 
 We also had to consider:
+
 * 90% of the existing software was written in Ruby. I was the only person with real Ruby experience on the team.
 * The services are used by a **lot of people**, every day.
 * We wanted to play our part in delivering the feature roadmap, and achieving the goals of the wider business.

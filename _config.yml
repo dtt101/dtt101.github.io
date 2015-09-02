@@ -12,7 +12,7 @@ theme:
 
   # Header and footer text
   header_text: >
-     <p>Writing about code and design. Mainly Ruby and JS.</p><p>There may be cats and books.</p>
+     <p>Writing about software, code and design.</p><p>There may be cats and books.</p>
   header_text_feature_image:
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
@@ -55,7 +55,7 @@ theme:
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
   google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
-  
+
   # Post navigation
   post_navigation: false
 

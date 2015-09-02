@@ -56,7 +56,7 @@ We are lucky that the services we were inheriting were part of a sound larger ar
 
 This was both a great exercise in the team ‘owning’ our infrastructure and in reducing technical debt. On most occasions it also resulted in less, more enjoyable work overall. We would not have been able to carry out these rewrites without decent  test coverage.
 
-Inspired by the work of a developer on our team in node.js and koajs, we also chose to move from a primarily Ruby focus to a JavaScript focus - both to match the skills of the team and also to meet our use cases.
+I am also lucky to be working in a great team! Inspired by the work of one of our team in node.js and koajs, we also decided to move from a primarily Ruby focus to a JavaScript focus - both to match the skills of the team and also to meet our use cases.
 
 ## And Finally…
 I will definitely use the ‘Hierarchy of Software Needs’ metaphor in the future when inheriting projects. It provided focus and a way for us to demonstrate the need and value of our work to non-technical stakeholders. Thanks Maslow!

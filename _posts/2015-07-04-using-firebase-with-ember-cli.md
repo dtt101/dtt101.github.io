@@ -2,6 +2,7 @@
 layout: post
 title: Firebase and multiple adapters in Ember
 excerpt: <p>How to use multiple data sources in Ember</p>
+permalink: using-firebase-with-ember-cli
 ---
 In this post I want to show you how you can add multiple data stores to your
 Ember application, using Firebase with my demo Marvel API Ember app as an example.

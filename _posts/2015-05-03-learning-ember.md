@@ -2,6 +2,7 @@
 layout: post
 title: Learning Ember.js
 excerpt: <p>Sharing some thoughts and resources on learning Ember.js</p>
+permalink: learning-ember
 ---
 I have been learning Ember over the last few months, and have come across some
 great resources which really helped me come up to speed.
